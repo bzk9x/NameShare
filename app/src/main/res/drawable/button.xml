@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#1A000000"> <!-- Ripple color (10% black) -->
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!-- Solid background -->
+            <solid android:color="#D4d3D9" /> <!-- Modern purple -->
+
+            <!-- Rounded corners -->
+            <corners android:radius="20dp" />
+
+            <!-- Button padding -->
+            <padding
+                android:bottom="8dp"
+                android:left="24dp"
+                android:right="24dp"
+                android:top="8dp" />
+        </shape>
+    </item>
+</ripple>
