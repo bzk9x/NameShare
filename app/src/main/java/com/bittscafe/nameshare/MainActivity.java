@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        scanActivity.setClass(getApplicationContext(), scanActivity.class);
+        scanActivity.setClass(getApplicationContext(), ScanActivity.class);
         startActivity(scanActivity);
         finish();
     }

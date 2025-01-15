@@ -3,4 +3,8 @@
     <string name="ready_to_scan">Ready to Scan</string>
     <string name="point_to_qr">Point your camera to the QR code</string>
     <string name="cancel">Cancel</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="app_icon">App icon</string>
 </resources>
