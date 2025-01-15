@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:padding="20dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F3F2F7"
-        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -28,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/ready_to_scan"
                 android:textColor="@color/black"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:alpha="0.5" />
 
             <FrameLayout
@@ -54,12 +55,16 @@
                 android:textSize="16sp" />
 
             <Button
+                android:id="@+id/cancel"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button"
-                android:text="@string/next"
+                android:elevation="0dp"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/cancel"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>

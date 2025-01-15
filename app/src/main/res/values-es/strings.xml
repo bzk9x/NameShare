@@ -2,5 +2,5 @@
     <string name="app_name">Compartir Nombre</string>
     <string name="ready_to_scan">Listo para escanear</string>
     <string name="point_to_qr">Apunta tu cámara al código QR</string>
-    <string name="next">Siguiente</string>
+    <string name="cancel">Cancelar</string>
 </resources>

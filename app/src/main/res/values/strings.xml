@@ -2,5 +2,5 @@
     <string name="app_name">Name Share</string>
     <string name="ready_to_scan">Ready to Scan</string>
     <string name="point_to_qr">Point your camera to the QR code</string>
-    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
 </resources>
