@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kartvizit</string>
+    <string name="ready_to_scan">Tarama için hazır</string>
+    <string name="point_to_qr">Kameranızı QR koda doğrultun</string>
+    <string name="hold_phones_together">Cihazınızı diğer cihaza yakın tutun</string>
+    <string name="cancel">İptal</string>
+    <string name="appwidget_text">ÖRNEK</string>
+    <string name="add_widget">Widget ekle</string>
+    <string name="app_widget_description">Bu bir uygulama widget açıklamasıdır</string>
+    <string name="app_icon">Uygulama simgesi</string>
+    <string name="scan_qr_or_nfc">QR veya NFC tarayın</string>
+    <string name="edit_name_card">Kartviziti düzenle</string>
+    <string name="nfc_is_disabled">NFC devre dışı</string>
+    <string name="your_name">Adınız</string>
+</resources>

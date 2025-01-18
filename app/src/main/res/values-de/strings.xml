@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Namenskarte</string>
+    <string name="ready_to_scan">Bereit zum Scannen</string>
+    <string name="point_to_qr">Richten Sie Ihre Kamera auf den QR-Code</string>
+    <string name="hold_phones_together">Halten Sie Ihr Gerät in die Nähe des anderen Geräts</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="appwidget_text">BEISPIEL</string>
+    <string name="add_widget">Widget hinzufügen</string>
+    <string name="app_widget_description">Dies ist eine Beschreibung für das App-Widget</string>
+    <string name="app_icon">App-Symbol</string>
+    <string name="scan_qr_or_nfc">QR oder NFC scannen</string>
+    <string name="edit_name_card">Namenskarte bearbeiten</string>
+    <string name="nfc_is_disabled">NFC ist deaktiviert</string>
+    <string name="your_name">Dein Name</string>
+</resources>

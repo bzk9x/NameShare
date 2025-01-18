@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Thẻ tên</string>
+    <string name="ready_to_scan">Sẵn sàng để quét</string>
+    <string name="point_to_qr">Hướng camera vào mã QR</string>
+    <string name="hold_phones_together">Giữ thiết bị của bạn gần thiết bị khác</string>
+    <string name="cancel">Hủy</string>
+    <string name="appwidget_text">VÍ DỤ</string>
+    <string name="add_widget">Thêm widget</string>
+    <string name="app_widget_description">Đây là mô tả widget của ứng dụng</string>
+    <string name="app_icon">Biểu tượng ứng dụng</string>
+    <string name="scan_qr_or_nfc">Quét QR hoặc NFC</string>
+    <string name="edit_name_card">Chỉnh sửa thẻ tên</string>
+    <string name="nfc_is_disabled">NFC đã bị tắt</string>
+    <string name="your_name">Tên của bạn</string>
+</resources>

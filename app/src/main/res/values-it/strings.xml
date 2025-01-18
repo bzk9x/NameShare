@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Biglietto da visita</string>
+    <string name="ready_to_scan">Pronto per la scansione</string>
+    <string name="point_to_qr">Punta la fotocamera sul codice QR</string>
+    <string name="hold_phones_together">Tieni il tuo dispositivo vicino all\'altro dispositivo</string>
+    <string name="cancel">Annulla</string>
+    <string name="appwidget_text">ESEMPIO</string>
+    <string name="add_widget">Aggiungi widget</string>
+    <string name="app_widget_description">Questa è una descrizione del widget dell\'app</string>
+    <string name="app_icon">Icona dell\'app</string>
+    <string name="scan_qr_or_nfc">Scansiona QR o NFC</string>
+    <string name="edit_name_card">Modifica biglietto da visita</string>
+    <string name="nfc_is_disabled">NFC è disabilitato</string>
+    <string name="your_name">Il tuo nome</string>
+</resources>

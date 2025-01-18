@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Именная карта</string>
+    <string name="ready_to_scan">Готово к сканированию</string>
+    <string name="point_to_qr">Наведите камеру на QR-код</string>
+    <string name="hold_phones_together">Держите устройство рядом с другим устройством</string>
+    <string name="cancel">Отмена</string>
+    <string name="appwidget_text">ПРИМЕР</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="app_widget_description">Это описание виджета приложения</string>
+    <string name="app_icon">Иконка приложения</string>
+    <string name="scan_qr_or_nfc">Сканировать QR или NFC</string>
+    <string name="edit_name_card">Редактировать именную карту</string>
+    <string name="nfc_is_disabled">NFC отключен</string>
+    <string name="your_name">Ваше имя</string>
+</resources>

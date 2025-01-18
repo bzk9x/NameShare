@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">بطاقة الاسم</string>
+    <string name="ready_to_scan">جاهز للمسح</string>
+    <string name="point_to_qr">وجّه الكاميرا نحو رمز QR</string>
+    <string name="hold_phones_together">أبقِ جهازك قريبًا من الجهاز الآخر</string>
+    <string name="cancel">إلغاء</string>
+    <string name="appwidget_text">مثال</string>
+    <string name="add_widget">إضافة عنصر واجهة</string>
+    <string name="app_widget_description">هذا وصف لعنصر واجهة التطبيق</string>
+    <string name="app_icon">أيقونة التطبيق</string>
+    <string name="scan_qr_or_nfc">مسح QR أو NFC</string>
+    <string name="edit_name_card">تعديل بطاقة الاسم</string>
+    <string name="nfc_is_disabled">NFC معطل</string>
+    <string name="your_name">اسمك</string>
+</resources>

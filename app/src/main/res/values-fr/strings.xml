@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">Partage de Nom</string>
+    <string name="app_name">Carte de Nom</string>
     <string name="ready_to_scan">Prêt à scanner</string>
-    <string name="point_to_qr">Pointez votre caméra vers le code QR</string>
+    <string name="point_to_qr">Dirigez votre caméra vers le code QR</string>
+    <string name="hold_phones_together">Tenez votre appareil près de l'autre appareil</string>
     <string name="cancel">Annuler</string>
+    <string name="appwidget_text">EXEMPLE</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="app_widget_description">Ceci est une description du widget de l'application</string>
+    <string name="app_icon">Icône de l'application</string>
+    <string name="scan_qr_or_nfc">Scannez un QR ou NFC</string>
+    <string name="edit_name_card">Modifier la carte de nom</string>
+    <string name="nfc_is_disabled">Le NFC est désactivé</string>
+    <string name="your_name">Votre nom</string>
 </resources>

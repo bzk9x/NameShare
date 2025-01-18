@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">名刺</string>
+    <string name="ready_to_scan">スキャン準備完了</string>
+    <string name="point_to_qr">カメラをQRコードに向けてください</string>
+    <string name="hold_phones_together">デバイスをもう一方のデバイスに近づけてください</string>
+    <string name="cancel">キャンセル</string>
+    <string name="appwidget_text">例</string>
+    <string name="add_widget">ウィジェットを追加</string>
+    <string name="app_widget_description">これはアプリのウィジェットの説明です</string>
+    <string name="app_icon">アプリアイコン</string>
+    <string name="scan_qr_or_nfc">QRまたはNFCをスキャン</string>
+    <string name="edit_name_card">名刺を編集</string>
+    <string name="nfc_is_disabled">NFCは無効です</string>
+    <string name="your_name">あなたの名前</string>
+</resources>

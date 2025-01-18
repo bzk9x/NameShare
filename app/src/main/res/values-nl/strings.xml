@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Naamkaart</string>
+    <string name="ready_to_scan">Klaar om te scannen</string>
+    <string name="point_to_qr">Wijs je camera naar de QR-code</string>
+    <string name="hold_phones_together">Houd je apparaat dicht bij het andere apparaat</string>
+    <string name="cancel">Annuleren</string>
+    <string name="appwidget_text">VOORBEELD</string>
+    <string name="add_widget">Widget toevoegen</string>
+    <string name="app_widget_description">Dit is een beschrijving van de app-widget</string>
+    <string name="app_icon">App-pictogram</string>
+    <string name="scan_qr_or_nfc">Scan QR of NFC</string>
+    <string name="edit_name_card">Bewerk naamkaart</string>
+    <string name="nfc_is_disabled">NFC is uitgeschakeld</string>
+    <string name="your_name">Jouw naam</string>
+</resources>

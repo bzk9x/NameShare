@@ -1,6 +1,7 @@
 package com.bittscafe.nameshare;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
@@ -12,9 +13,11 @@ import android.hardware.camera2.CaptureRequest;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 import android.view.Surface;
 import android.view.TextureView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -40,6 +43,7 @@ public class ScanActivity extends AppCompatActivity {
     private HandlerThread backgroundThread;
     private static final int CAMERA_PERMISSION_REQUEST_CODE = 100;
     private String cameraId;
+    private final Intent scanNFCActivity = new Intent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +68,13 @@ public class ScanActivity extends AppCompatActivity {
 
         textureView = findViewById(R.id.cameraDisplay);
         textureView.setSurfaceTextureListener(surfaceTextureListener);
+
+        ImageView scanQR = findViewById(R.id.nfc);
+        scanQR.setOnClickListener(view -> {
+            scanNFCActivity.setClass(getApplicationContext(), ScanNFCActivity.class);
+            startActivity(scanNFCActivity);
+            finish();
+        });
     }
 
     private final TextureView.SurfaceTextureListener surfaceTextureListener = new TextureView.SurfaceTextureListener() {
@@ -119,8 +130,8 @@ public class ScanActivity extends AppCompatActivity {
         try {
             for (String id : manager.getCameraIdList()) {
                 CameraCharacteristics characteristics = manager.getCameraCharacteristics(id);
-                if (characteristics.get(CameraCharacteristics.LENS_FACING) ==
-                        CameraCharacteristics.LENS_FACING_BACK) {
+                Integer lensFacing = characteristics.get(CameraCharacteristics.LENS_FACING);
+                if (lensFacing != null && lensFacing == CameraCharacteristics.LENS_FACING_BACK) {
                     cameraId = id;
                     break;
                 }
@@ -134,7 +145,7 @@ public class ScanActivity extends AppCompatActivity {
                 finish();
             }
         } catch (CameraAccessException e) {
-            e.printStackTrace();
+            Log.e("TAG", "Error message", e);
             Toast.makeText(this, "Error accessing camera: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             finish();
         }
@@ -162,7 +173,7 @@ public class ScanActivity extends AppCompatActivity {
                                 cameraCaptureSession.setRepeatingRequest(captureRequestBuilder.build(),
                                         null, backgroundHandler);
                             } catch (CameraAccessException e) {
-                                e.printStackTrace();
+                                Log.e("TAG", "Error message", e);
                             }
                         }
 
@@ -173,7 +184,7 @@ public class ScanActivity extends AppCompatActivity {
                         }
                     }, null);
         } catch (CameraAccessException e) {
-            e.printStackTrace();
+            Log.e("TAG", "Error message", e);
         }
     }
 
@@ -191,7 +202,7 @@ public class ScanActivity extends AppCompatActivity {
                 backgroundThread = null;
                 backgroundHandler = null;
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                Log.e("TAG", "Error message", e);
             }
         }
     }

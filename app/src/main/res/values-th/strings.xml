@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">การ์ดชื่อ</string>
+    <string name="ready_to_scan">พร้อมสำหรับการสแกน</string>
+    <string name="point_to_qr">ชี้กล้องไปที่รหัส QR</string>
+    <string name="hold_phones_together">วางอุปกรณ์ของคุณใกล้กับอุปกรณ์อื่น</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="appwidget_text">ตัวอย่าง</string>
+    <string name="add_widget">เพิ่มวิดเจ็ต</string>
+    <string name="app_widget_description">นี่คือลักษณะของวิดเจ็ตแอป</string>
+    <string name="app_icon">ไอคอนแอป</string>
+    <string name="scan_qr_or_nfc">สแกน QR หรือ NFC</string>
+    <string name="edit_name_card">แก้ไขการ์ดชื่อ</string>
+    <string name="nfc_is_disabled">NFC ถูกปิดการใช้งาน</string>
+    <string name="your_name">ชื่อของคุณ</string>
+</resources>

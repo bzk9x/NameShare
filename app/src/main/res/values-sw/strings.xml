@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kadi ya Jina</string>
+    <string name="ready_to_scan">Tayari kwa ajili ya kupiga picha</string>
+    <string name="point_to_qr">Elekeza kamera yako kwenye msimbo wa QR</string>
+    <string name="hold_phones_together">Shikilia kifaa chako karibu na kifaa kingine</string>
+    <string name="cancel">Ghairi</string>
+    <string name="appwidget_text">MFANO</string>
+    <string name="add_widget">Ongeza kidirisha cha programu</string>
+    <string name="app_widget_description">Hii ni maelezo ya kidirisha cha programu</string>
+    <string name="app_icon">Ikoni ya programu</string>
+    <string name="scan_qr_or_nfc">Piga picha QR au NFC</string>
+    <string name="edit_name_card">Hariri kadi ya jina</string>
+    <string name="nfc_is_disabled">NFC imezimwa</string>
+    <string name="your_name">Jina lako</string>
+</resources>

@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">Name Card</string>
     <string name="ready_to_scan">Ready to Scan</string>
-    <string name="point_to_qr">Point your camera at the QR code</string>
+    <string name="point_to_qr">Point your camera to the QR code</string>
     <string name="hold_phones_together">Hold your device close to the other device</string>
     <string name="cancel">Cancel</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
-    <string name="app_widget_description">This is an app widget description</string>
+    <string name="app_widget_description">This na app widget description</string>
     <string name="app_icon">App icon</string>
     <string name="scan_qr_or_nfc">Scan QR or NFC</string>
     <string name="edit_name_card">Edit name card</string>
-    <string name="nfc_is_disabled">NFC is Disabled</string>
-    <string name="your_name">Your Name</string>
+    <string name="nfc_is_disabled">NFC no dey work</string>
+    <string name="your_name">Your name</string>
 </resources>

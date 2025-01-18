@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kad Nama</string>
+    <string name="ready_to_scan">Sedia untuk imbas</string>
+    <string name="point_to_qr">Arahkan kamera anda ke kod QR</string>
+    <string name="hold_phones_together">Pegang peranti anda dekat dengan peranti lain</string>
+    <string name="cancel">Batal</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="app_widget_description">Ini adalah penerangan widget aplikasi</string>
+    <string name="app_icon">Ikon aplikasi</string>
+    <string name="scan_qr_or_nfc">Imbas QR atau NFC</string>
+    <string name="edit_name_card">Edit kad nama</string>
+    <string name="nfc_is_disabled">NFC dimatikan</string>
+    <string name="your_name">Nama anda</string>
+</resources>

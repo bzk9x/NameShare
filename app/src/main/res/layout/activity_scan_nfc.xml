@@ -27,18 +27,18 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:alpha="0.5"
                 android:contentDescription="@string/edit_name_card"
+                android:alpha="0.5"
                 android:src="@drawable/edit" />
 
             <ImageView
-                android:id="@+id/nfc"
+                android:id="@+id/scan_qr"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="20dp"
                 android:alpha="0.5"
                 android:contentDescription="@string/scan_qr_or_nfc"
-                android:src="@drawable/nfc" />
+                android:src="@drawable/qr" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -61,6 +61,7 @@
             android:padding="20dp">
 
             <TextView
+                android:id="@+id/scan_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.5"
@@ -70,19 +71,25 @@
                 android:textStyle="bold" />
 
             <FrameLayout
-                android:id="@+id/cameraDisplayFrame"
+                android:id="@+id/nameCard"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="175dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:clipToOutline="true"
-                android:background="@drawable/qr_code_scan_view_bg">
+                android:layout_marginBottom="20dp">
 
-                <TextureView
-                    android:id="@+id/cameraDisplay"
+                <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:background="@drawable/name_card">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/baloo_da_2"
+                        android:gravity="center"
+                        android:text="@string/your_name"
+                        android:textSize="30sp" />
+                </FrameLayout>
             </FrameLayout>
 
             <TextView
@@ -90,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="@string/point_to_qr"
+                android:text="@string/hold_phones_together"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
