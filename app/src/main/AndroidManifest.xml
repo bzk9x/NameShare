@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
     <uses-feature android:name="android.hardware.camera" />
 
     <application
@@ -16,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NameShare"
         tools:targetApi="31">
+        <activity
+            android:name=".EditNameCardActivity"
+            android:exported="false" />
         <activity
             android:name=".ScanNFCActivity"
             android:exported="false" />
