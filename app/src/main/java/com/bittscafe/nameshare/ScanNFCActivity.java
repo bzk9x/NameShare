@@ -16,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class ScanNFCActivity extends AppCompatActivity {
 
     private final Intent scanActivity = new Intent();
+    private final Intent EditNameCardActivity = new Intent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,13 @@ public class ScanNFCActivity extends AppCompatActivity {
         scanQR.setOnClickListener(view -> {
             scanActivity.setClass(getApplicationContext(), ScanActivity.class);
             startActivity(scanActivity);
+            finish();
+        });
+
+        ImageView edit = findViewById(R.id.edit);
+        edit.setOnClickListener(view -> {
+            EditNameCardActivity.setClass(getApplicationContext(), EditNameCardActivity.class);
+            startActivity(EditNameCardActivity);
             finish();
         });
     }

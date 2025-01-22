@@ -12,4 +12,8 @@
     <string name="edit_name_card">Edit name card</string>
     <string name="nfc_is_disabled">NFC is Disabled</string>
     <string name="your_name">Your Name</string>
+    <string name="No_speakble" translatable="false">No speakble</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="user_is_verified" translatable="false">user is verified</string>
 </resources>
